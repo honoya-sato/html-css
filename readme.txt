@@ -1,1 +1,1 @@
-finish 1-8
+1-9の課題は1-8responsive.htmlと1-8style.cssです。
