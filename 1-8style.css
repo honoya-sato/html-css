@@ -27,22 +27,22 @@
       margin-right: 0;
   }
   .img1{
-      height: 200px;
-      width:280;
+      height: 150px;
+      width:100%;
       background-image: url(img/flow01.png);
       background-size: cover;
       background-position: bottom;
   }
   .img2{
-    height: 200px;
-    width:280;
+    height: 150px;
+    width:100%;
     background-image: url(img/flow02.png);
     background-size: cover;
     background-position: bottom;
 }
 .img3{
-    height: 200px;
-    width:280;
+    height: 150px;
+    width:100%;
     background-image: url(img/flow03.png);
     background-size: cover;
     background-position: bottom;
@@ -52,7 +52,7 @@
     top: 0;
     left: 0;
     background-color: orange;
-    color: rgb(70, 66, 66);
+    color: white;
     padding: 5px;
 }
 .blog-title{
