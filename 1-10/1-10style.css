@@ -1,0 +1,478 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  /* header start */
+  header{
+      background-color: #EC715F;
+      width: 100%;
+      height: 70px;
+  }
+  .header-box{
+      width: 1024px;
+      margin: 0 auto;
+      
+    }  
+    .logo{
+        height: 70px;
+        float: left;
+     }
+  .nav-list{
+    float: right;
+  }
+  .nav-list-item{
+    float: left;
+    width: 120px;
+    line-height: 70px;
+    color: #FAFAFA;
+    padding: 0 30px;
+    list-style: none;
+    font-size: 16px;
+
+  }
+  /* header end */
+
+  /* main-visual start */
+  .mv{
+      width: 100%;
+      height: 650px;
+      text-align: center;
+      background-image: url(img/mv.png);
+      background-size:cover;
+      background-position: center;
+      color: #FAFAFA;
+  }
+  .main-all{
+      width: 1024px;
+      margin:0 auto;
+  }
+  .main-title{
+      padding-top: 200px;
+      font-size: 60px;
+  }
+  .main-visual-text{
+      padding-top: 10px;
+      font-size: 20px;
+  }
+/* main-visual end */
+
+/* portfolio start */
+.portfolio{
+    background-color: #eceff1;
+}
+.main-box{
+    width:920px;
+    margin: 0 auto;
+}
+.h2-text{
+    font-size: 32px;
+    color: #000000;
+    text-align: center;
+    padding: 90px;
+    }
+.h2-text::after{
+    content: "";
+    display: block;
+    width: 70px;
+    height: 3px;
+    margin: 8px auto 0 auto;
+    background-color: #EC715F;
+}
+.main-text{
+    font-size: 16px;
+    color:#000000;
+    text-align: center;
+    padding-top: 30px
+
+}
+.img-group{
+    width: 920px;
+    padding:30px 0 90px 0;
+    margin: 0 auto;
+}
+.img-all{
+width: 300px;
+height: 250px;
+float: left;
+margin: 10px 10px 0 0;
+background-size: cover;
+background-position: center;
+}
+.img-all:nth-child(-n+3) {
+    margin-top: 0;
+}
+.img-all:nth-child(3n) {
+    margin-right: 0;
+}
+.img-all:nth-child(-n+3) {
+    margin-top: 0;
+}
+.img1{
+    background-image: url(img/sketch.jpg);
+}
+.img2{
+    background-image: url(img/websuku.png);
+}
+.img3{
+    background-image: url(img/write.jpg);
+}
+.img4{
+    background-image: url(img/webcamp.png);
+}
+.img5{
+
+background-image: url(img/talk.jpg);
+}
+.img6{
+    background-image: url(img/webcamp-mother.png);
+}
+/* portfolio end */
+
+/* feature start */
+.feature {
+    background-size: cover;
+    background-position: center;
+}
+.feature-text{
+    font-size: 32px;
+    padding-top: 90px;
+    text-align: center;
+}
+.feature-text::after{
+    content: "";
+    display: block;
+    width: 70px;
+    height: 3px;
+    margin: 8px auto 0 auto;
+    background-color: #EC715F;
+}
+.fea-text{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 16px;
+}
+.icon-all{
+    width: 1000px;
+    padding: 30px 0 90px 0;
+    margin: 0 auto;
+}
+.strength{
+    float: left;
+    width: 320px;
+    margin-right: 20px;
+    text-align: center;
+    font-size: 60px;
+}
+.strength-title{
+    padding: 10px;
+    font-size: 20px;
+}
+.strength-text {
+    text-align: left;
+    font-size: 16px;
+}
+.strength:last-child {
+    margin-right: 0;
+}
+/* feature end */
+
+/* profile start */
+.profile{
+    background-color: #eceff1;
+}
+.profile-back{
+    width: 1024px;
+    margin: 0 auto;
+}
+.profile-top{
+    padding-top: 90px;
+    text-align: center;
+    font-size: 32px;
+}
+.profile-top::after{
+    content: "";
+    display: block;
+    width: 70px;
+    height: 3px;
+    margin: 8px auto 0 auto;
+    background-color: #EC715F;
+}
+.profile-text{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 16px;
+}
+.profile-main{
+    padding: 30px 0 90px 0;
+}
+.profile-pic{
+    width: 50%;
+    float: left;
+}
+.face{
+    background-image: url(img/my-icon.jpg);
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.top-profile{
+    margin: 20px 0 5px 0;
+    font-size: 20px;
+}
+
+.text-prof{
+    font-size: 16px;
+}
+.top-myname{
+    margin: 0 0 5px 0;
+    font-size: 20px;
+}
+.left-pic{
+    width:100%;
+}
+/* profile end */
+
+/* contact start */
+.contact-box{
+    width: 1024px;
+    margin: 0 auto;
+}
+.contact-main{
+    padding-top: 90px;
+    text-align: center;
+    font-size: 32px;
+}
+.contact-main::after {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 3px;
+    margin: 8px auto 0 auto;
+    background-color: #EC715F;
+}
+.contact-text {
+    padding-top: 30px;
+    text-align: center;
+    font-size: 16px;
+}
+.contact-half{
+    width: 800px;
+    padding: 30px 0 90px 0;
+    margin: 0 auto;
+}
+.left-contact{
+    width: 50%;
+    float: left;
+}
+.left-contact-box{
+    width: 130px;
+    margin: 0 auto;
+}
+.mail-title{
+    font-size: 20px;
+    margin: 0px 0px 5px 0px;
+}
+.mail-address{
+    margin-bottom: 20px;
+    text-decoration: underline;
+
+}
+.tell-title{
+    font-size: 20px;
+    margin: 20px 0px 5px 0px;
+}
+.tell-number{
+    text-decoration: underline;
+}
+.right-contact{
+    width: 50%;
+    float: right;
+}
+.sns{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.fa-facebook-square{
+    font-size: 50px;
+    margin-right: 20px;
+}
+.fa-twitter{
+    font-size: 50px;
+    margin-right: 20px;
+}
+.fa-instagram{
+    font-size: 50px
+}
+.right-contact-width{
+    width: 190px;
+    margin: 0 auto;
+}
+/* contact end */
+footer{
+    background-color: #ec715f;
+    height: 60px;
+    width: 100%;
+    line-height: 60px;
+}
+.footer-text{
+    font-size: 16px;
+    color: #fafafa;
+    text-align: center;
+}
+/* footer end */
+
+/* Response start */
+@media (max-width: 767px) {
+    header{
+        height: 50px;
+        width: 100%;
+    }
+    .header-box{
+        width: 90%;
+        float: none;
+        height: 50px;
+    }
+    .logo{
+        height: 50px;
+    }
+    .list-bar:first-child {
+        margin-top: 10px;
+    }
+    .list-bar {
+        display: block;
+        width: 25px;
+        height: 2px;
+        margin: 5px auto;
+        background-color: #FAFAFA;
+    }
+    .social-menu {
+        float: right;
+        width: 40px;
+        height: 40px;
+        margin-right: 5%;
+        border: 1px solid #FAFAFA;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .mv{
+        background-image: url(img/code.png);
+        padding-top: 50px;
+    }
+    .main-all{
+        width: 100%;
+    }
+    .main-title{
+        font-size: 40px;
+        color: #fafafa;
+    }
+    .main-visual-text{
+        font-size: 18px;
+        color: #fafafa;
+    }
+    .portfolio{
+        padding: 0 5%;
+    }
+    .main-all{
+        width: 100%;
+    }
+    .img-group{
+        width:300px;
+    }
+    .img-all{
+        float:none;
+    }
+    .h2-text{
+        padding: 90px 0px 0px 0px;
+    }
+    .feature{
+        padding: 0 5%;
+        background-size: cover;
+        background-position: center;
+    }
+    .strength{
+        float: none;
+    }
+    .strength:first-child {
+        margin-top: 0;
+    }
+    .strength {
+        float: none;
+        margin-top: 20px;
+    }
+    .strength-text{
+        text-align: left;
+    }
+    .icon-all{
+        width: 320px;
+        margin: 0 auto;
+    }
+    .profile{
+        padding: 0 5px;
+    }
+    .profile-back{
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    .profile-pic{
+        width: 100%;
+        float: none;
+    }
+    .contact{
+        padding: 0 5px;
+    }
+    .contact-half{
+        width: 100%;
+        text-align: center;
+
+        }
+    .contact-box{
+        width:100%;
+    }
+    .left-contact{
+        float: none;
+        width: 100%;
+
+    }
+    .right-contact{
+        float: none;
+        width: 100%;
+        }
+    .text-prof{
+        width: 100%;
+        text-align: center;
+    }
+    .sns{
+        margin: 20px 0px 5px 0px;
+    }
+    .fa-facebook-square{
+        margin-right: 8px;
+    }
+    .fa-twitter{
+        margin-right:8px;
+    }
+    .top-myname{
+        margin-top: 20px;
+    }
+    .nav-list{
+        display: none;
+        float: none;
+        width: 100%;
+        line-height: 50px;
+        border-bottom: 1px solid gray;
+        text-align: center;
+        background-color: rgba(0,0,0,.9);
+    }
+    .nav-list-item{
+        float:none;
+    }
+}
