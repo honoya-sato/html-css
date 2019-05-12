@@ -75,7 +75,7 @@
     font-size: 32px;
     color: #000000;
     text-align: center;
-    padding: 90px;
+    padding-top: 30px;
     }
 .h2-text::after{
     content: "";
@@ -474,6 +474,15 @@ footer{
     }
     .nav-list-item{
         float:none;
+    }
+    .img5{
+        display: none;
+    }
+    .img3{
+        display: none;
+    }
+    .img1{
+        display: none;
     }
     /* Response end */
 
